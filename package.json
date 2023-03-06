@@ -1,14 +1,14 @@
 {
-  "name": "denghua-homepage",
+  "name": "onlyblue-homepage",
   "version": "1.0.0",
-  "description": "Denghua website",
+  "description": "denghua website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 4000",
     "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
-  "keywords": [],
+  "keywords": ["next.js", "react", "homepage"],
   "author": "denghua.fm@foxmail.com",
   "license": "MIT",
   "dependencies": {
