@@ -1,0 +1,32 @@
+{
+  "name": "denghua-homepage",
+  "version": "1.0.0",
+  "description": "Denghua website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 4000",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "denghua.fm@foxmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.12",
+    "@chakra-ui/react": "2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^7.2.0",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "swiper": "^9.0.5",
+    "three": "^0.146.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}
