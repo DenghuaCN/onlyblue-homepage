@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
-import Image from 'next/image';
-import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react';
+// import Image from 'next/image';
+import { Box, Text, LinkBox, LinkOverlay, Image } from '@chakra-ui/react';
 import { Global } from '@emotion/react';
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,8 +16,6 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
       <Image src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
-        placeholder='blur'
-        loading='lazy'
       />
       <LinkOverlay href={href} taget="_blank" >
         <Text mt={2}>{ title }</Text>
@@ -51,8 +49,6 @@ export const PracticeGridItem = ({ children, id, title, thumbnail }) => (
         <Image src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"
-          placeholder='blur'
-          loading='lazy'
         />
         <LinkOverlay href={`/practice/${id}`} >
           <Text mt={2}>{ title }</Text>
@@ -79,15 +75,14 @@ export const CarouselWorkGridItem = ({ children, id, title, thumbnails, delay = 
           >
             {/* <Box style={{maxWidth: '27%'}}>
               <Image
-                src={thumbnail}
+                src={thumbnail.src}
                 alt={'img'}
                 objectFit="contain"
-                placeholder='blur'
               />
             </Box> */}
             <Box
               style={{
-                backgroundImage: `url(${thumbnail.src})`,
+                backgroundImage: `url(${thumbnail})`,
                 width: '100%',
                 height: '200px',
                 backgroundSize: 'contain',

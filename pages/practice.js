@@ -3,8 +3,6 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { GridItem, PracticeGridItem } from "../components/grid-item";
 
-// poor-ui
-import poorUICover from '../public/images/practice/poor-ui/cover.png';
 
 const Practice = () => (
   <Layout title="practice">
@@ -17,7 +15,7 @@ const Practice = () => (
         <PracticeGridItem
           id="poor-ui"
           title=""
-          thumbnail={poorUICover} >
+          thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/cover.png" >
           A simple UI on Vue3 and Vite
         </PracticeGridItem>
       </Section>

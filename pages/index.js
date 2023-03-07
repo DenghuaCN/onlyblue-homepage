@@ -18,8 +18,6 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoGithub } from 'react-icons/io5'
 import { Img } from '@chakra-ui/react'
-//
-import poorUICover from '../public/images/practice/poor-ui/cover.png';
 
 const Home = () => (
   <Layout>
@@ -141,7 +139,7 @@ const Home = () => (
           <GridItem
             href="/practice/poor-ui"
             title="poor-ui"
-            thumbnail={poorUICover}
+            thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/cover.png"
           >
           A simple UI on Vue3 and Vite
           </GridItem>

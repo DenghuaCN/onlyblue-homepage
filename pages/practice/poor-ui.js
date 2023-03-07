@@ -11,6 +11,12 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
+const cover = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/cover.png';
+const example1 = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/example1.png';
+const example2 = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/example2.png';
+const example3 = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/example3.png';
+const example4 = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/example4.png';
+
 const Work = () => (
   <Layout title="poor-ui">
     <Container>
@@ -37,11 +43,11 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Image borderRadius="lg" w="full" src="/images/practice/poor-ui/cover.png" alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src="/images/practice/poor-ui/example1.png" alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src="/images/practice/poor-ui/example2.png" alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src="/images/practice/poor-ui/example3.png" alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src="/images/practice/poor-ui/example4.png" alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={cover} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={example1} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={example2} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={example3} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={example4} alt="poor-ui" mb={4} />
     </Container>
   </Layout>
 )

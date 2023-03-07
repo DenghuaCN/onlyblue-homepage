@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlGLB = '/valley.glb'
+  const urlGLB = 'https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/valley.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -127,7 +127,7 @@ const VoxelDog = () => {
         animate();
         setLoading(false);
 
-        console.log('loadGLTFModel', moduleData);
+        // console.log('loadGLTFModel', moduleData);
         moduleData.position.set(0, -3.5, 0);
         moduleData.scale.set(0.65,0.65,0.65);
       })

@@ -6,6 +6,16 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'denghua-blog.oss-cn-shenzhen.aliyuncs.com',
+        port: '443',
+        pathname: '/**'
+      }
+    ]
+  }
 }
 
 module.exports = {

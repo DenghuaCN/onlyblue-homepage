@@ -22,22 +22,22 @@ import {
 } from '../components/workImgs/hj';
 
 import {
-  example1,
-  example2,
-  example3,
-  example4,
+  ai1,
+  ai2,
+  ai3,
+  ai4,
   cover1,
   cover2,
   cover3,
   cover4,
-  group1,
-  group2,
-  group3,
-  group4,
-  group5,
-  group6,
-  group7,
-  group8
+  example1,
+  example2,
+  example3,
+  example4,
+  example5,
+  example6,
+  example7,
+  example8,
 } from '../components/workImgs/ddkt'
 
 
@@ -132,10 +132,10 @@ const Works = () => {
               <CarouselWorkGridItem
                 delay={3000}
                 thumbnails={[
-                  example1,
-                  example2,
-                  example3,
-                  example4
+                  ai1,
+                  ai2,
+                  ai3,
+                  ai4,
                 ]}
               >
               叮咚课堂AI+
@@ -162,14 +162,14 @@ const Works = () => {
               <CarouselWorkGridItem
                 delay={2500}
                 thumbnails={[
-                  group1,
-                  group2,
-                  group3,
-                  group4,
-                  group5,
-                  group6,
-                  group7,
-                  group8,
+                  example1,
+                  example2,
+                  example3,
+                  example4,
+                  example5,
+                  example6,
+                  example7,
+                  example8,
                 ]}
               >
               增长活动
@@ -187,15 +187,6 @@ const Works = () => {
         <Heading as="h3" fontSize={20} mb={4}>
           Collaborations
         </Heading>
-      </Section> */}
-
-      {/* <Section>
-        <WorkGridItem
-          id=""
-          title="description"
-          thumbnail={} >
-          description
-        </WorkGridItem>
       </Section> */}
 
     </Container>
