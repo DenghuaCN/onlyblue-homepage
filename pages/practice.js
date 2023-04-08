@@ -20,6 +20,16 @@ const Practice = () => (
         </PracticeGridItem>
       </Section>
 
+
+      <Section delay={0.2}>
+        <PracticeGridItem
+          id="iphone-3d-website"
+          title=""
+          thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/iphone-3d-website/iphone3d-desktop.gif" >
+          iPhone 3D module
+        </PracticeGridItem>
+      </Section>
+
       {/* <Section delay={0.1}>
         <SimpleGrid column={[1,2,2]} gap={6}>
           <GridItem

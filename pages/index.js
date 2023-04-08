@@ -90,7 +90,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           About me
         </Heading>
@@ -108,7 +108,7 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.6}>
         <Heading as="h3" variant="section-title">
           I love
         </Heading>
@@ -117,7 +117,7 @@ const Home = () => (
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.6}>
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
@@ -135,7 +135,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6} mt={4} mb={8}>
           <GridItem
             href="/practice/poor-ui"
             title="poor-ui"
@@ -143,7 +143,15 @@ const Home = () => (
           >
           A simple UI on Vue3 and Vite
           </GridItem>
+
+          <GridItem
+            href="/practice/iphone-3d-website"
+            title="iphone 3d Animation"
+            thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/iphone-3d-website/iphone3d-desktop.gif"
+          >
+          </GridItem>
         </SimpleGrid>
+
 
         <Box align="center" my={4}>
           <NextLink href="/practice" passHref scroll={false}>
