@@ -14,9 +14,8 @@ const Practice = () => (
       <Section delay={0.1}>
         <PracticeGridItem
           id="poor-ui"
-          title=""
+          title="A simple UI on Vue3 and Vite"
           thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/cover.png" >
-          A simple UI on Vue3 and Vite
         </PracticeGridItem>
       </Section>
 
@@ -24,21 +23,21 @@ const Practice = () => (
       <Section delay={0.2}>
         <PracticeGridItem
           id="iphone-3d-website"
-          title=""
-          thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/iphone-3d-website/iphone3d-desktop.gif" >
-          iPhone 3D module
+          title="iPhone 3D module"
+          thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/iphone-3d-website/iphone3d-desktop.gif"
+        >
         </PracticeGridItem>
       </Section>
 
-      {/* <Section delay={0.1}>
-        <SimpleGrid column={[1,2,2]} gap={6}>
-          <GridItem
-            title=""
-            thumbnail=""
-            href=""
-          />
-        </SimpleGrid>
-      </Section> */}
+      {/* poor-notion */}
+      <Section delay={0.2}>
+        <PracticeGridItem
+          id="poor-notion"
+          title="Poor Notion"
+          thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-notion/operation.gif"
+        >
+        </PracticeGridItem>
+      </Section>
 
     </Container>
   </Layout>

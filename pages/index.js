@@ -136,20 +136,35 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6} mt={4} mb={8}>
+          {/* poor-ui */}
           <GridItem
             href="/practice/poor-ui"
             title="poor-ui"
             thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-ui/cover.png"
           >
-          A simple UI on Vue3 and Vite
+            A simple UI on Vue3 and Vite
           </GridItem>
 
+          {/* iphone-3d-website */}
           <GridItem
             href="/practice/iphone-3d-website"
             title="iphone 3d Animation"
             thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/iphone-3d-website/iphone3d-desktop.gif"
           >
           </GridItem>
+        </SimpleGrid>
+
+
+        <SimpleGrid columns={[1, 2, 2]} gap={6} mt={4} mb={8}>
+          {/* poor-notion */}
+          <GridItem
+            href="/practice/poor-notion"
+            title="Poor Notion"
+            thumbnail="https://denghua-blog.oss-cn-shenzhen.aliyuncs.com/homepage/poor-notion/operation.gif"
+          >
+            简易类Notion笔记应用
+          </GridItem>
+
         </SimpleGrid>
 
 

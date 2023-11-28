@@ -43,11 +43,11 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Image borderRadius="lg" w="full" src={cover} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={example1} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={example2} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={example3} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={example4} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={cover} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={example1} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={example2} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={example3} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={example4} alt="poor-ui" mb={8} />
     </Container>
   </Layout>
 )

@@ -25,7 +25,7 @@ const Work = () => (
       <P>
         使用 WebGi 与 GASP 制作的iPhone 3D模型动画
       </P>
-      <List ml={4} my={4}>
+      <List ml={4} my={8}>
         <ListItem>
           <Meta>Repo</Meta>
           <Link href="https://github.com/DenghuaCN/iphone-3d-website">github.com/DenghuaCN/iphone-3d-website<ExternalLinkIcon mx="2px" />
@@ -46,9 +46,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Image borderRadius="lg" w="full" src={cover1} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={cover2} alt="poor-ui" mb={4} />
-      <Image borderRadius="lg" w="full" src={gif} alt="poor-ui" mb={4} />
+      <Image borderRadius="lg" w="full" src={gif} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={cover1} alt="poor-ui" mb={8} />
+      <Image borderRadius="lg" w="full" src={cover2} alt="poor-ui" mb={8} />
     </Container>
   </Layout>
 )
