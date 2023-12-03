@@ -38,7 +38,16 @@ import {
   example6,
   example7,
   example8,
-} from '../components/workImgs/ddkt'
+} from '../components/workImgs/ddkt';
+
+import {
+  kt1,
+  kt2,
+  kt3,
+  kt4,
+  kt5,
+  kt6,
+} from '../components/workImgs/gientech';
 
 
 const Works = () => {
@@ -51,6 +60,47 @@ const Works = () => {
         </Section>
         <Divider my={6} />
       </Heading>
+
+      {/* 中电 */}      <Box>
+        <Section delay={0.2}>
+          <Heading as="h3" fontSize={14} mb={4}>
+            中电金信
+          </Heading>
+        </Section>
+
+        <Section delay={0.3}>
+          <SimpleGrid columns={[1,1,2]} gap={6}>
+            {/* 科探管理后台 */}
+            <Section>
+              <CarouselWorkGridItem
+                thumbnails={[
+                  kt1,
+                  kt2,
+                  kt3,
+                ]}
+              >
+              科探管理后台
+              </CarouselWorkGridItem>
+            </Section>
+
+            {/* 科探评审C端 */}
+            <Section>
+              <CarouselWorkGridItem
+                delay={2000}
+                thumbnails={[
+                  kt4,
+                  kt5,
+                  kt6,
+                ]}
+              >
+              科探评审C端
+              </CarouselWorkGridItem>
+            </Section>
+
+          </SimpleGrid>
+        </Section>
+      </Box>
+
 
       {/* 匠人 */}
       <Box>
